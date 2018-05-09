@@ -1,0 +1,38 @@
+h1 {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  font-family: "Titan One", sans-serif;
+  font-size: 64px;
+  color: #7de3fd;
+  letter-spacing: 5px;
+  text-shadow:
+    3px 5px 0 #0B2545,
+    1px 1px 0 #0B2545;
+}
+
+body {
+  color: #0B2545;
+  1px 1px 0 #EEF5DB,
+  1px 1px 0 #EEF5DB;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  background-color: #0B2545;
+  background-image: url("https://images.unsplash.com/photo-1517677208171-0bc6725a3e60?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=9562ec20a676b0468c71c3c5488e603a&auto=format&fit=crop&w=2700&q=80");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-size: 20px;
+  margin: 0;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  text-align: right;
+  background: #0B2545;
+}
