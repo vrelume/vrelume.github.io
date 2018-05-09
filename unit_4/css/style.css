@@ -12,27 +12,32 @@ h1 {
 
 body {
   color: #0B2545;
-  1px 1px 0 #EEF5DB,
-  1px 1px 0 #EEF5DB;
   font-family: "Josefin Sans", sans-serif;
-  font-weight: 700;
+  font-weight: 600;
   background-color: #0B2545;
-  background-image: url("https://images.unsplash.com/photo-1517677208171-0bc6725a3e60?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=9562ec20a676b0468c71c3c5488e603a&auto=format&fit=crop&w=2700&q=80");
   background-repeat: no-repeat;
   background-size: 100%;
-  font-size: 20px;
+  font-size: 21px;
   margin: 0;
   text-align: center;
 }
 
-ul {
-  list-style-type: none;
-  text-align: center;
-  margin: 0;
-  padding: 0;
+footer{
+  position: fixed;
+  bottom: 0;
+  display: block;
+  margin: 20px;
+  padding: 10px;
+  font-weight: 300;
+  font-size: 18px;
+  word-spacing: 20px;
 }
 
-footer {
-  text-align: right;
-  background: #0B2545;
+a {
+  color:#EEF5DB;
+  text-decoration: none;
+}
+footer a:hover {
+  font-family: "Titan One", sans-serif;
+  font-weight: 100;
 }
