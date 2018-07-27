@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Titan+One:400,700');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:100,400,700');
+
+#container {
+	margin: 0 auto;
+	width: 600px;
+	background-color: #ffffff;
+}
+
+header {
+	!background-color: #cccccc;
+  font-family: "Titan One", sans-serif;
+  font-size: 36px;
+  text-align: center;
+  color: #7de3fd;
+  letter-spacing: 6px;
+  text-shadow:
+    3px 5px 0 #0B2545,
+    1px 1px 0 #0B2545;
+	padding: 20px;
+}
+
+header h1 { 
+  margin: 0; 
+}
+
+p {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #0B2545;
+  text-shadow: none;
+}
+
+body {
+  background-image: url("https://images.unsplash.com/photo-1517677208171-0bc6725a3e60?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=9562ec20a676b0468c71c3c5488e603a&auto=format&fit=crop&w=2700&q=80");
+  background-repeat: no-repeat;
+  background-size: 200%;
+}
+
+nav {
+	background: #0B2545;
+}
+
+nav a {
+	display: block;
+	float: left;
+	padding: 5px 10px;
+	color: #EEF5DB;
+	text-decoration: none;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+	
+}
+
+nav a:hover { 
+  background-color: #061526; 
+}
+
+.column {
+	float: left;
+	width: 260px;
+  	height: 300px;
+	padding: 20px;
+	margin: 0;
+}
+
+#column1 {
+  background-color: #7de3fd;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+#column2 {
+  background-color: #5485FF;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+footer {
+	background-color: none;
+	text-align: right;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+	padding: 20px;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
